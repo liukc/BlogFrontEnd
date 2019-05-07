@@ -3,8 +3,8 @@
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb mt-4">
       <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
-      <li class="breadcrumb-item active" aria-current="page">程序日记</li>
-      <li class="ml-auto"><router-link tag="button" class="btn btn-outline-success btn-sm" to="/editBlog">发表博客</router-link></li>
+      <li class="breadcrumb-item active" aria-current="page">{{navDisplay()}}</li>
+      <li class="ml-auto"><router-link tag="button" class="btn btn-outline-success btn-sm" :to="toPath+title">发表博客</router-link></li>
     </ol>
   </nav>
     <div>
@@ -34,7 +34,24 @@
 
 <script>
 export default {
-  name: 'ProgramDiary'
+  name: 'ProgramDiary',
+  data () {
+    return {
+      title: '',
+      toPath: '/editBlog/'
+    }
+  },
+  methods: {
+    navDisplay: function () {
+      if (this.$route.params.title === 'note') {
+        this.title = 'note'
+        return '学习笔记'
+      } else {
+        this.title = 'bug'
+        return '日常bug'
+      }
+    }
+  }
 }
 </script>
 

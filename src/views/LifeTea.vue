@@ -4,7 +4,7 @@
       <ol class="breadcrumb mt-4">
         <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
         <li class="breadcrumb-item active" aria-current="page">生活小茶</li>
-        <li class="ml-auto"><router-link tag="button" class="btn btn-outline-success btn-sm" to="/editBlog">发表博客</router-link></li>
+        <li class="ml-auto"><router-link tag="button" class="btn btn-outline-success btn-sm" to="/editBlog/lifeTea">发表博客</router-link></li>
       </ol>
     </nav>
     <div>

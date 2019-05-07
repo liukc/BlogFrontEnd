@@ -18,10 +18,10 @@
             <router-link class="nav-link" to="/lifeTea">生活小茶</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/noteAndBug?note">学习笔记</router-link>
+            <router-link class="nav-link" to="/noteAndBug/note">学习笔记</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/noteAndBug?bug">日常bug</router-link>
+            <router-link class="nav-link" to="/noteAndBug/bug">日常bug</router-link>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -30,10 +30,10 @@
         </form>
         <ul class="navbar-nav mr-2">
           <li class="nav-item">
-            <a class="nav-link" href="#">登陆</a>
+            <router-link class="nav-link" to="/login">登陆</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">注册</a>
+            <router-link class="nav-link" to="/register">注册</router-link>
           </li>
         </ul>
       </div>

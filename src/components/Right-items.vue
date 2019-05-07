@@ -16,20 +16,8 @@
         <div class="card-header">
           热门标签
         </div>
-        <div class="card-body">
-          <p>
-            <span class="badge badge-primary">Primary</span>
-            <span class="badge badge-secondary">Secondary</span>
-            <span class="badge badge-success">Success</span>
-          </p>
-          <p>
-            <span class="badge badge-danger">Danger</span>
-            <span class="badge badge-warning">Warning</span>
-            <span class="badge badge-info">Info</span>
-          </p>
-          <span class="badge badge-light">Light</span>
-
-          <span class="badge badge-dark">Dark</span>
+        <div class="card-body" style="padding: 30px 90px 30px">
+          <span class="mr-2 badge" :class="LabelsType[index]" v-for="(blogLabel, index) in blogLabels" :key="index">{{blogLabel}}</span>
         </div>
       </div>
       <div class="card text-center mb-4">
@@ -46,7 +34,31 @@
 
 <script>
 export default {
-  name: 'Right-items'
+  name: 'Right-items',
+  data () {
+    return {
+      LabelsType: [
+        'badge-primary',
+        'badge-secondary',
+        'badge-success',
+        'badge-danger',
+        'badge-warning',
+        'badge-info',
+        'badge-light',
+        'badge-dark'
+      ],
+      blogLabels: [
+        'primary',
+        'secondary',
+        'success',
+        'danger',
+        'warning',
+        'info',
+        'light',
+        'dark'
+      ]
+    }
+  }
 }
 </script>
 
