@@ -16,7 +16,7 @@
       <div class="mt-4 ml-4">
         <div class="form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label mr-5" for="exampleCheck1">Check me out</label>
+          <label class="form-check-label mr-5" for="exampleCheck1">记住密码</label>
           <span class="ml-5"><a href="#">忘记密码?</a></span>
         </div>
        <div class="mt-3">

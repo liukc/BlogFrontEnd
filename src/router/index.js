@@ -14,6 +14,11 @@ import BackgroudImage from '../components/BackgroudImage'
 import Login from '../views/Login'
 import Register from '../views/Register'
 import SearchPage from '../views/SearchPage'
+import UserInfo from '../views/UserInfo'
+import Information from '../components/UserInformation/Information'
+import BlogManage from '../components/UserInformation/BlogManage'
+import CommitManage from '../components/UserInformation/CommitManage'
+import AlterInformation from '../components/UserInformation/AlterInfo'
 
 Vue.use(Router)
 
@@ -78,11 +83,23 @@ export default new Router({
     },
     {
       path: '/backgroudImage',
-      name: 'BakgroudImage',
+      name: 'BackgroudImage',
       component: BackgroudImage,
       children: [
         {path: '/login', name: 'Login', component: Login},
         {path: '/register', name: 'Register', component: Register}
+      ]
+    },
+    {
+      path: '/userInfo',
+      name: 'UserInfo',
+      component: UserInfo,
+      redirect: '/userInfo/information',
+      children: [
+        {path: '/userInfo/information', name: Information, component: Information},
+        {path: '/userInfo/blogManage', name: BlogManage, component: BlogManage},
+        {path: '/userInfo/commitManage', name: CommitManage, component: CommitManage},
+        {path: '/userInfo/alterInformation', name: AlterInformation, component: AlterInformation}
       ]
     }
   ],

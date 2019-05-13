@@ -8,14 +8,14 @@
 
 <script>
 export default {
-  name: 'Login'
+  name: 'BackgroudImage'
 }
 </script>
 
 <style scoped>
 .backgroud{
   background-image: url("../assets/images/9.jpg");
-  width: 1680px;
+  width: 1565px;
   height: 730px;
 }
 </style>

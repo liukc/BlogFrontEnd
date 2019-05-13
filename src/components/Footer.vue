@@ -15,41 +15,41 @@
         <small class="d-block mb-3 text-muted">© 2019-2119</small>
       </div>
       <div class="col-6 col-md">
-        <h5>Features</h5>
+        <h5>某些特点</h5>
         <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Cool stuff</a></li>
-          <li><a class="text-muted" href="#">Random feature</a></li>
-          <li><a class="text-muted" href="#">Team feature</a></li>
-          <li><a class="text-muted" href="#">Stuff for developers</a></li>
-          <li><a class="text-muted" href="#">Another one</a></li>
-          <li><a class="text-muted" href="#">Last time</a></li>
+          <li><a class="text-muted" href="#">bootstrap4</a></li>
+          <li><a class="text-muted" href="#">个人网站</a></li>
+          <li><a class="text-muted" href="#">前后分离</a></li>
+          <li><a class="text-muted" href="#">vue.js</a></li>
         </ul>
       </div>
       <div class="col-6 col-md">
-        <h5>Resources</h5>
+        <h5>友情链接</h5>
         <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Resource</a></li>
-          <li><a class="text-muted" href="#">Resource name</a></li>
-          <li><a class="text-muted" href="#">Another resource</a></li>
-          <li><a class="text-muted" href="#">Final resource</a></li>
+          <li><a class="text-muted" href="#">百度一下</a></li>
+          <li><a class="text-muted" href="#">谷歌</a></li>
+          <li><a class="text-muted" href="#">新浪微博</a></li>
+          <li><a class="text-muted" href="#">知乎</a></li>
+          <li><a class="text-muted" href="#">淘宝</a></li>
+          <li><a class="text-muted" href="#">腾讯课堂</a></li>
         </ul>
       </div>
       <div class="col-6 col-md">
-        <h5>Resources</h5>
+        <h5>相关资源</h5>
         <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Business</a></li>
-          <li><a class="text-muted" href="#">Education</a></li>
-          <li><a class="text-muted" href="#">Government</a></li>
-          <li><a class="text-muted" href="#">Gaming</a></li>
+          <li><a class="text-muted" href="#">vue</a></li>
+          <li><a class="text-muted" href="#">bootstrap</a></li>
+          <li><a class="text-muted" href="#">element</a></li>
+          <li><a class="text-muted" href="#">spring</a></li>
         </ul>
       </div>
       <div class="col-6 col-md">
-        <h5>About</h5>
+        <h5>关于我们</h5>
         <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Team</a></li>
-          <li><a class="text-muted" href="#">Locations</a></li>
-          <li><a class="text-muted" href="#">Privacy</a></li>
-          <li><a class="text-muted" href="#">Terms</a></li>
+          <li><a class="text-muted" href="#">团队</a></li>
+          <li><a class="text-muted" href="#">工作地点</a></li>
+          <li><a class="text-muted" href="#">个人介绍</a></li>
+          <li><a class="text-muted" href="#">照片</a></li>
         </ul>
       </div>
     </div>

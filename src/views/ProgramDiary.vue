@@ -34,17 +34,17 @@ export default {
           author: 'admin'
         },
         {
-          diaryTime: '2018/4/2',
+          diaryTime: '2018/4/3',
           issue: '更新 Github 模板',
           author: 'admin'
         },
         {
-          diaryTime: '2018/4/2',
+          diaryTime: '2018/4/12',
           issue: '更新 Github 模板',
           author: 'admin'
         },
         {
-          diaryTime: '2018/4/2',
+          diaryTime: '2018/4/22',
           issue: '更新 Github 模板',
           author: 'admin'
         }

@@ -1,11 +1,18 @@
 <template>
     <div>
+      <div class="card mb-4 text-center">
+        <div class="card-header">
+          一句话感悟
+        </div>
+        <div class="card-body font-italic">
+            <p class="card-text" style="padding: 5px">生活就像海洋，只有意志坚强的人，才能到达彼岸.</p>
+        </div>
+      </div>
       <div class="card text-center mb-4">
         <div class="card-header">
           站内公告
         </div>
         <div class="card-body">
-          <h5 class="card-title">个人网站正在建设中</h5>
           <p class="card-text">个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中</p>
         </div>
         <div class="card-footer text-muted">

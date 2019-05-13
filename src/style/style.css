@@ -1,0 +1,6 @@
+.backColor{
+  background: white;
+  filter:alpha(Opacity=90);
+  -moz-opacity:0.9;
+  opacity: 0.9;
+}
